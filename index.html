@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset = "UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google</title>
+<style>
+body {
+    margin: 0px;
+    margin-top: 60px;
+    padding: 0px;
+}
+html, body
+{
+    height: 100%;
+}
+#Header
+{
+    width: 960px;
+    height: 50px;
+}
+#Content
+{
+    height: 70%;
+    width: 960px;
+}
+#Footer
+{
+    width: 960px;
+    height: 50px;
+    background-color: #dddddd
+}   
+nav {
+    display: flex;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+    height: auto;
+}
+.left-links {
+    flex: 1 1 0px;
+}
+.right-links {
+    justify-content: right;
+}
+.links {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.container {
+  text-align:center;
+}
+.container > input {
+  text-align:left;
+}
+
+
+</style> 
+</head>    
+<body>
+    <div id="Header">
+<nav>
+<div class="left-links">
+<a class="links" href="#">About</a>
+<a class="links" href="#">Store</a>
+</div>
+<div class="right-links">
+<a class="links" href="#">Gmail</a>
+<a class="links" href="#">Images</a>
+<a class="navbarlogo" hfref="x"></a> 
+</div>
+</nav>
+</div> 
+<div id="Content">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <div class="container">  
+    <p>
+        <input type="text">
+    </p>
+  
+    <button>Google Search</button>
+    <button>I'm feeling lucky</button>
+    </div>
+</div>
+<div id="Footer">
+<footer>
+    <nav>
+        <div class="left-links">
+            <a class="links" href="#">Advertising</a>
+            <a class="links" href="#">Business</a>
+            <a class="links" href="#">How Stuff Works</a>
+        </div>
+        <div class="right-links">
+        <a class="links" href="#">Privacy</a>
+        <a class="links" href="#">Terms</a>
+        <a class="links" href="#">Settings</a>
+        </div>
+    </nav>
+</footer>
+</div>
+</body>
+</html>
